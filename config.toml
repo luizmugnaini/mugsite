@@ -1,0 +1,71 @@
+# The URL the site will be built for
+base_url = "https://luizmugnaini.github.com"
+title = "Luiz's blog"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+theme = "terminimal"
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+taxonomies = [
+    {name = "tags"},
+]
+
+default_language = "en"
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+highlight_theme = "gruvbox-dark"
+
+[extra]
+# Put all your custom variables here
+
+accent_color = "orange"
+background_color = "dark"
+
+logo_text = "mugsite"
+
+author = "Luiz G. Mugnaini A."
+
+menu_items = [
+    # each of these is optional, name and url are required
+    # $BASE_URL is going to be substituted by base_url from configuration
+    {name = "blog", url = "$BASE_URL"},
+
+    # tags should only be enabled if you have "tags" taxonomy
+    # see documentation below for more details
+    {name = "tags", url = "$BASE_URL/tags"},
+    {name = "archive", url = "$BASE_URL/archive"},
+    {name = "about me", url = "$BASE_URL/about"},
+
+    # set newtab to true to make the link open in new tab
+    {name = "github", url = "https://github.com/luizmugnaini", newtab = true},
+]
+
+# Whether to show links to earlier and later posts
+# on each post page (defaults to true).
+enable_post_view_navigation = true
+
+post_view_navigation_prompt = "Read more"
+
+use_full_hack_font = true
+
+favicon = "static/favicon-32x32.png"
+favicon_mimetype = "image/png"
+
+# Optional: Set how <title> elements are rendered.
+# Values:
+# - "main_only" -- only the main title (`config.title`) is rendered.
+# - "page_only" -- only the page title (if defined) is rendered,
+#                  falling back to `config.title` if not defined or empty.
+# - "combined" -- combine like so: "page_title | main_title",
+#                 or if page_title is not defined or empty, fall back to `main_title`
+#
+# Note that the main (index) page only has the main title.
+page_titles = "main_only"
