@@ -56,8 +56,8 @@ post_view_navigation_prompt = "Read more"
 
 use_full_hack_font = true
 
-# favicon = "static/favicon-32x32.png"
-# favicon_mimetype = "image/png"
+favicon = "static/favicon-32x32.png"
+favicon_mimetype = "image/png"
 
 # Optional: Set how <title> elements are rendered.
 # Values:
