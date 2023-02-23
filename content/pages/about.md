@@ -11,9 +11,9 @@ with my advisor [Ivan Struchiner](https://www.ime.usp.br/~ivanstru) we study
 interested in *systems programming* and *data science*, quite distinct areas, I
 know!
 
-My life has always been endowed with *art* and *music*, I'm always fascinated by
+My life has always been revolved by *art* and *music*, I'm always fascinated by
 discovering new artists and genres. Another hobby of mine is that of reading,
 currently I'm going through the russian classic *Anna Karenina* by [Leo Tolstoy](https://en.wikipedia.org/wiki/Leo_Tolstoy).
 
-{{ image(src="me.jpg",
+{{ image(src="/img/about/me.jpg",
          position="center", style="border-radius: 8px;") }}
