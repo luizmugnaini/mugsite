@@ -30,4 +30,5 @@ to give a sophisticated introduction to linear algebra utilising the language of
 the world of *abstraction* in mathematics, and for that I'm much thankful.
 
 The [source](https://github.com/luizmugnaini/deep-dive) of *Deep Dive* can be
-found in my github.
+found in my github, and the (possibily out of date) compiled document can be
+found [here](/pdf/deep-dive.pdf).
