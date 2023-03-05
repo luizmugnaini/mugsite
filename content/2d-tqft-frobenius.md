@@ -12,4 +12,4 @@ As a final project for my [mathematical-physics
 I decided to study the categorical equivalence between 2-dimensional
 topological quantum field theories and the category of commutative
 Frobenius algebras. The paper can be found
-[here](/pdf/2d-tqft-frobenius.pdf).
+[here](/2d-tqft-frobenius.pdf).
