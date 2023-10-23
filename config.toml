@@ -1,6 +1,6 @@
 # The URL the site will be built for
 base_url = "https://luizmugnaini.github.io"
-title = "Luiz's blog"
+title = "mug's blog"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -26,25 +26,19 @@ highlight_theme = "gruvbox-dark"
 [extra]
 # Put all your custom variables here
 
-accent_color = "orange"
-background_color = "dark"
+accent_color = "pink"
+background_color = "blue"
 
-logo_text = "mugsite"
+logo_text = "mug's blog"
 
-author = "Luiz G. Mugnaini A."
+author = "Luiz Mugnaini"
 
+# $BASE_URL is going to be substituted by base_url from configuration
 menu_items = [
-    # each of these is optional, name and url are required
-    # $BASE_URL is going to be substituted by base_url from configuration
     {name = "blog", url = "$BASE_URL"},
-
-    # tags should only be enabled if you have "tags" taxonomy
-    # see documentation below for more details
+    {name = "about", url = "$BASE_URL/about"},
     {name = "tags", url = "$BASE_URL/tags"},
     {name = "archive", url = "$BASE_URL/archive"},
-    {name = "about me", url = "$BASE_URL/about"},
-
-    # set newtab to true to make the link open in new tab
     {name = "github", url = "https://github.com/luizmugnaini", newtab = true},
 ]
 
@@ -56,7 +50,7 @@ post_view_navigation_prompt = "Read more"
 
 use_full_hack_font = true
 
-favicon = "favicon/favicon-192x192.png"
+favicon = "/favicon_letter-192x192.png"
 favicon_mimetype = "image/png"
 
 # Optional: Set how <title> elements are rendered.
