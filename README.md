@@ -1,3 +1,0 @@
-# mugsite
-
-My personal website.
