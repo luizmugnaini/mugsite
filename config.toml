@@ -21,7 +21,7 @@ default_language = "en"
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
 
-highlight_theme = "gruvbox-dark"
+highlight_theme = "one-dark"
 
 [extra]
 # Put all your custom variables here
@@ -40,6 +40,7 @@ menu_items = [
     {name = "tags", url = "$BASE_URL/tags"},
     {name = "archive", url = "$BASE_URL/archive"},
     {name = "github", url = "https://github.com/luizmugnaini", newtab = true},
+    {name = "misc", url = "$BASE_URL/misc"},
 ]
 
 # Whether to show links to earlier and later posts
@@ -50,7 +51,7 @@ post_view_navigation_prompt = "Read more"
 
 use_full_hack_font = true
 
-favicon = "/favicon_letter-192x192.png"
+favicon = "favicon_knot-192x192.png"
 favicon_mimetype = "image/png"
 
 # Optional: Set how <title> elements are rendered.

@@ -6,12 +6,11 @@ date = 2023-02-23
 tags = ["programming", "rust", "interpreter", "emulation"]
 +++
 
-Lately, my curiosity has led me down the exciting path of hardware emulation.
-One of my long-term aspirations is to forge an emulator for the legendary
-[Game Boy](https://en.wikipedia.org/wiki/Game_Boy) console.
-In my quest to gather knowledge and skills for this project, I embarked on a
-journey that resulted in the birth of `chirp`; a [CHIP-8](https://en.wikipedia.org/wiki/CHIP-8)
-interpreter written in the [Rust](https://www.rust-lang.org/) programming language.
+I always wondered how hardware emulation works under the hood and one of my
+long-term aspirations is to forge an emulator for the legendary [Game Boy](https://en.wikipedia.org/wiki/Game_Boy)
+console. In order to gather some knowledge and skills for this future project,
+I've decided to create a [CHIP-8](https://en.wikipedia.org/wiki/CHIP-8)
+interpreter.
 
 {{ figure(
     src="/img/chirp/maze.png",
@@ -23,12 +22,12 @@ interpreter written in the [Rust](https://www.rust-lang.org/) programming langua
 
 <!-- more -->
 
-The heart of `chirp` is an interpreter of the CHIP-8 programming language, with
-roots in the early days of game development.
-Built entirely in Rust, this project serves can serve as a learning material
-for someone interested in dipping their toes in the world of emulation.
-The goal of the project is to serve as a stepping stone for more complex emulation
-endeavors in the future.
+The heart of [`chirp`](https://github.com/luizmugnaini/chirp) is an interpreter
+of the CHIP-8 programming language, with roots in the early days of game
+development. Built entirely in Rust, this project can serve as a learning
+material for someone interested in dipping their toes in the world of
+emulation. The goal of this project was to lay the fundamental ground knowledge
+of emulation.
 
 {{ figure(
     src="/img/chirp/invaders.png",
@@ -38,7 +37,8 @@ endeavors in the future.
     caption_style="font-weight: bold; font-style: italic;"
 )}}
 
-I tried to make the external dependencies as minimal as possible:
+I tried to make the external dependencies as minimal as possible (being Rust,
+this is quite the challenge):
 
 - [`rand`](https://crates.io/crates/rand): most famous random number generation
   crate in the Rust ecosystem.
