@@ -5,21 +5,33 @@ path = "misc"
 +++
 
 Remember when personal websites had lists of selected links that you could use to navigate the web
-and find cool content? Let's bring this culture back!
+and find cool content? Let's bring this culture back! Here is my little contribution to that:
 
 
-- Handmade Hero [episode guide](https://guide.handmadehero.org/code/).
-- [Computer, Enhance!](https://www.computerenhance.com).
-- [Randy's list](https://randy.gg/res/).
-- [Inigo Quilez's blog](https://iquilezles.org/).
+- [Casey Muratori's blog](https://caseymuratori.com/contents). I specially recommend reading the
+  [Semantic Compression](https://caseymuratori.com/blog_0015) post.
+- Handmade Hero [episode guide](https://guide.handmadehero.org/code/), absolutely amazing series
+  building a game from the ground up - made by Casey Muratori.
+- [Computer, Enhance!](https://www.computerenhance.com) Another project from Casey Muratori,
+  teaching all the nooks and crannies of low-level computing.
+- [Fabrice Bellard's website](https://bellard.org/), the creator of FFMPEG, QEMU, as well as
+  TinyCC and QuickJS - this guy is a legend.
 - Glenn Fiedler old blog [Gaffer On Games](https://gafferongames.com) and his new blog
-  [Más Bandwidth](https://mas-bandwidth.com). Glenn also has a cool channel where he talks about
+  [Más Bandwidth](https://mas-bandwidth.com) - both provide very good resources for many game
+  development topics. Glenn also has a cool channel where he talks about
   netcode, [Network Next](https://www.youtube.com/@NetworkNext).
+- [Hundred Rabbits](https://100r.co/site/home.html).
+- [Inigo Quilez's blog](https://iquilezles.org/).
 - [Ryan Fleury's blog](https://www.rfleury.com).
-- [gingerBill's blog](https://www.gingerbill.org).
+- [Andre Weissflog's blog](https://floooh.github.io).
+- [Andrew Kelley's blog](https://andrewkelley.me/), the creator of the Zig programming language.
+- [gingerBill's blog](https://www.gingerbill.org), the creator of the Odin programming language.
 - [Our Machinery archived blog](https://ruby0x1.github.io/machinery_blog_archive).
-
-- [Easing functions](https://easings.net) is a good reference to have around.
+- [Molecular Matters blog](https://blog.molecular-matters.com/).
+- [Wicked Engine's devblog](https://wickedengine.net/category/devblog/).
+- [Randy's list](https://randy.gg/res/), yet another list of cool resources for you to browse.
+- [Easing functions](https://easings.net) is a good reference of smooth interval interpolation
+  functions to have around.
 
 <!-- I can't recommend these since I haven't read them myself. Storing them here for later reference.
 
