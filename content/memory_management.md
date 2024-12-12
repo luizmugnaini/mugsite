@@ -46,7 +46,7 @@ protocol assumptions, the callee won't try to stop the caller fearing stupidity 
 In summary, the programmer is always treated as an intelligent being that knows what they are doing.
 As simple and obvious as that philosophy may seem, the current state of the software industry took a
 turn in favor of lazyness, with the excuse that the "developer experience" is the king. I certainly
-don't follow this way of thinking, in fact: the end-user is the king, and performance is the queen.
+don't follow this way of thinking, in fact: the end-user is the king, and performance is queen.
 
 # Alignment: rules for memory reads
 
@@ -56,7 +56,7 @@ regular task (as opposed to jumping around randomly). This alignment is always a
 depends on the size of the memory units (e.g. a struct member) we want to read. In C++ you can query
 the memory alignment for a given type `T` using `alignof(T)`.
 
-For instance, if we have an array of floats (which has a a size of 4 bytes), the address of the
+For instance, if we have an array of floats (each float with a size of 4 bytes), the address of the
 `n`th element of the array in memory should be of the form `4 n + c` where `c` is the address of the
 first element of the array. Hence we say that the alignment of a float is 4 bytes.
 
@@ -332,7 +332,7 @@ memory block and its corresponding header.
 
 In order to compute the padding needed by the block we can implement the following function:
 
-```cpp
+```c
 size_t padding_with_header(
     uintptr_t  ptr_addr,
     size_t     alignment,
