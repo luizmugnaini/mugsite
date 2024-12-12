@@ -29,7 +29,7 @@ collector approach?
 
 When writing any API, one should question itself the scope and the audience of the API. In the case
 of a memory management system, the main concern is centred in memory safety. How much safety guard-rails
-should we build and how much hand-holding does our end-user need?
+should we build, and how much hand-holding does our end-user need?
 
 Guard-rails obviously comes with their own performance costs. For instance, if we wanted a very
 robust system that disallows for any use-after-free, we wouldn't be returning direct pointers to the
@@ -44,7 +44,7 @@ a performant system that can be easily managed, and ensures some level of memory
 obvious protocols exist between caller and callee, if the caller wants to break one of the these
 protocol assumptions, the callee won't try to stop the caller fearing stupidity of the programmer.
 In summary, the programmer is always treated as an intelligent being that knows what they are doing.
-As simple and obvious as that philosophy may seem, the current state of the software industry took a
+As simple and obvious as this philosophy may seem, the current state of the software industry took a
 turn in favor of lazyness, with the excuse that the "developer experience" is the king. I certainly
 don't follow this way of thinking, in fact: the end-user is the king, and performance is queen.
 
@@ -54,7 +54,7 @@ The CPU memory reads cannot be done willy nilly at any given address. Modern arc
 optimised to read contiguous memory with a certain alignment - which makes stepping through memory a
 regular task (as opposed to jumping around randomly). This alignment is always a power of two and
 depends on the size of the memory units (e.g. a struct member) we want to read. In C++ you can query
-the memory alignment for a given type `T` using `alignof(T)`.
+the memory alignment for a given type `T` using `alignof(T)` (in C, you can use `_Alignof(T)`).
 
 For instance, if we have an array of floats (each float with a size of 4 bytes), the address of the
 `n`th element of the array in memory should be of the form `4 n + c` where `c` is the address of the
@@ -95,13 +95,12 @@ Notice how we're wasting 8 bytes of memory for each instance of our struct.
 But really, why does the compiler put those paddings between our members? For the sake of
 contradiction, suppose that the compiler didn't put those padding bytes. If we wanted to access the
 member `Foo::some_metric` (which has an alignment of 8 bytes), we would start to read `Foo` in the
-same address as the first member, then we would advance by our alignment of 8 bytes at a time until
+same address as the first member - then we would advance by our alignment of 8 bytes at a time until
 we supposedly reach `Foo::some_metric`. Surprise! We won't be able to reach our destination, in
 fact, we would've passed the address of the target by 4 bytes. For this exact reason, the compiler
 has to arrange memory for the worst case scenario - the largest alignment in the collection of
 members has to be the global alignment of the structure itself. In our case, the compiler sees that
-the largest alignment is 8 bytes and makes sure that every element has its address in the form `8n + c`
-(where `c` is the address of `Foo`, the same as the address of `Foo::memory`).
+the largest alignment is 8 bytes.
 
 One thing I didn't explain is why the compiler has to put those 4 bytes of padding after
 the last structure member. If for some reason you have a contiguous array of `Foo` instances, in
