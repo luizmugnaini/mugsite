@@ -20,6 +20,7 @@ and find cool content? Let's bring this culture back! Here is my little contribu
   [Más Bandwidth](https://mas-bandwidth.com) - both provide very good resources for many game
   development topics. Glenn also has a cool channel where he talks about
   netcode, [Network Next](https://www.youtube.com/@NetworkNext).
+- [Mr. 4th Lab](https://mr4th.com/blog), by Alan Webster.
 - [Hundred Rabbits](https://100r.co/site/home.html).
 - [Inigo Quilez's blog](https://iquilezles.org/).
 - [Ryan Fleury's blog](https://www.rfleury.com).
