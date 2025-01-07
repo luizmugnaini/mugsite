@@ -3,11 +3,11 @@ title = "2D topological quantum field theories and commutative Frobenius algebra
 date = 2023-03-03
 
 [taxonomies]
-tags = ["mathematics", "physics"]
+tags = ["mathematics"]
 +++
 
 As a final project for my [mathematical-physics class](https://sites.google.com/view/cristian-ortiz/usp2022-math-physics)
-I explored the categorical equivalence between 2-dimensional topological
+I studied the categorical equivalence between 2-dimensional topological
 quantum field theories (TQFT) and the category of commutative Frobenius algebras.
 This led to an interesting study paper, which I'm now making publicly accessible.
 
@@ -48,3 +48,5 @@ The paper is divided into 9 sections:
    theorems that motivated the paper's creation in the first place.
 
 You can access the paper [here](/2d-tqft-frobenius.pdf).
+
+Last update: 2025-01-06.

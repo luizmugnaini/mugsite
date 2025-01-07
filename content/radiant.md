@@ -3,15 +3,11 @@ title = "radiant: a ray tracer"
 date = 2023-02-23
 
 [taxonomies]
-tags = ["programming", "rust", "graphics"]
+tags = ["graphics"]
 +++
 
-Some time ago I decided to start learning [Rust](https://www.rust-lang.org/),
-and as a starting project I followed [_Ray Tracing in One
-Weekend_](https://raytracing.github.io/books/RayTracingInOneWeekend.html) by
-Peter Shirley and hence [`radiant`](https://github.com/luizmugnaini/radiant) was
-born.  Although much work still has to be done, the project already produces
-some cool pictures.
+This is a simple CPU-based ray-tracer following [_Ray Tracing in One Weekend_](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
+by Peter Shirley
 
 {{ figure(src="/img/radiant/radiant-random.png",
           style="width: 70%;",

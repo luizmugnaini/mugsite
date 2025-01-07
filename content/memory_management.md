@@ -3,7 +3,7 @@ title = "Memory management strategies"
 date = 2024-11-25
 
 [taxonomies]
-tags = ["C", "C++", "presheaf lib"]
+tags = ["memory"]
 +++
 
 In this post, I'll be detailing how C and C++ can be programmed in a sane and memory-safe way. We'll
