@@ -51,7 +51,7 @@ post_view_navigation_prompt = "Read more"
 
 use_full_hack_font = true
 
-favicon = "favicon_knot-192x192.png"
+favicon = "/favicon_knot-192x192.png"
 favicon_mimetype = "image/png"
 
 # Optional: Set how <title> elements are rendered.
