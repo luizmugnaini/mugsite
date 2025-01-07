@@ -1,4 +1,0 @@
-[submodule "themes/terminimal"]
-	path = themes/terminimal
-	url = https://github.com/luizmugnaini/zola-theme-terminimal
-    branch = mug-terminimal
