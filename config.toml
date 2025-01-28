@@ -39,7 +39,7 @@ menu_items = [
     {name = "about", url = "$BASE_URL/about"},
     {name = "tags", url = "$BASE_URL/tags"},
     {name = "archive", url = "$BASE_URL/archive"},
-    {name = "github", url = "https://github.com/luizmugnaini", newtab = true},
+    {name = "code", url = "https://git.sr.ht/~presheaf", newtab = true},
     {name = "misc", url = "$BASE_URL/misc"},
 ]
 
